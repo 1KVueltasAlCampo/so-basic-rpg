@@ -3720,6 +3720,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -3795,6 +3796,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3802,10 +3815,10 @@ TextureImporter:
       name: PngItem_787455_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 898
-        width: 119
-        height: 128
+        x: 6
+        y: 910
+        width: 90
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3823,10 +3836,10 @@ TextureImporter:
       name: PngItem_787455_1
       rect:
         serializedVersion: 2
-        x: 119
-        y: 898
-        width: 119
-        height: 128
+        x: 126
+        y: 910
+        width: 90
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3844,10 +3857,10 @@ TextureImporter:
       name: PngItem_787455_2
       rect:
         serializedVersion: 2
-        x: 238
-        y: 898
-        width: 119
-        height: 128
+        x: 246
+        y: 910
+        width: 90
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3865,10 +3878,10 @@ TextureImporter:
       name: PngItem_787455_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 770
-        width: 119
-        height: 128
+        x: 16
+        y: 780
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3886,10 +3899,10 @@ TextureImporter:
       name: PngItem_787455_4
       rect:
         serializedVersion: 2
-        x: 119
-        y: 770
-        width: 119
-        height: 128
+        x: 136
+        y: 780
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3907,10 +3920,10 @@ TextureImporter:
       name: PngItem_787455_5
       rect:
         serializedVersion: 2
-        x: 238
-        y: 770
-        width: 119
-        height: 128
+        x: 256
+        y: 780
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3928,10 +3941,10 @@ TextureImporter:
       name: PngItem_787455_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 642
-        width: 119
-        height: 128
+        x: 11
+        y: 650
+        width: 90
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3949,10 +3962,10 @@ TextureImporter:
       name: PngItem_787455_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 514
-        width: 119
-        height: 128
+        x: 11
+        y: 520
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3970,10 +3983,10 @@ TextureImporter:
       name: PngItem_787455_8
       rect:
         serializedVersion: 2
-        x: 119
-        y: 514
-        width: 119
-        height: 128
+        x: 126
+        y: 520
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3991,10 +4004,10 @@ TextureImporter:
       name: PngItem_787455_9
       rect:
         serializedVersion: 2
-        x: 238
-        y: 514
-        width: 119
-        height: 128
+        x: 251
+        y: 520
+        width: 85
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4012,10 +4025,10 @@ TextureImporter:
       name: PngItem_787455_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 386
-        width: 119
-        height: 128
+        x: 11
+        y: 390
+        width: 90
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4033,10 +4046,10 @@ TextureImporter:
       name: PngItem_787455_11
       rect:
         serializedVersion: 2
-        x: 119
-        y: 386
-        width: 119
-        height: 128
+        x: 131
+        y: 400
+        width: 90
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4054,10 +4067,10 @@ TextureImporter:
       name: PngItem_787455_12
       rect:
         serializedVersion: 2
-        x: 238
-        y: 386
-        width: 119
-        height: 128
+        x: 251
+        y: 390
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4075,10 +4088,10 @@ TextureImporter:
       name: PngItem_787455_13
       rect:
         serializedVersion: 2
-        x: 357
-        y: 386
-        width: 119
-        height: 128
+        x: 371
+        y: 390
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4096,10 +4109,10 @@ TextureImporter:
       name: PngItem_787455_14
       rect:
         serializedVersion: 2
-        x: 476
-        y: 386
-        width: 119
-        height: 128
+        x: 491
+        y: 390
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4117,10 +4130,10 @@ TextureImporter:
       name: PngItem_787455_15
       rect:
         serializedVersion: 2
-        x: 595
-        y: 386
-        width: 119
-        height: 128
+        x: 611
+        y: 390
+        width: 90
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4138,10 +4151,10 @@ TextureImporter:
       name: PngItem_787455_16
       rect:
         serializedVersion: 2
-        x: 714
-        y: 386
-        width: 119
-        height: 128
+        x: 731
+        y: 400
+        width: 90
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4159,10 +4172,10 @@ TextureImporter:
       name: PngItem_787455_17
       rect:
         serializedVersion: 2
-        x: 833
-        y: 386
-        width: 119
-        height: 128
+        x: 851
+        y: 390
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4180,10 +4193,10 @@ TextureImporter:
       name: PngItem_787455_18
       rect:
         serializedVersion: 2
-        x: 952
-        y: 386
-        width: 119
-        height: 128
+        x: 971
+        y: 390
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4201,10 +4214,10 @@ TextureImporter:
       name: PngItem_787455_19
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 386
-        width: 119
-        height: 128
+        x: 1091
+        y: 390
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4222,10 +4235,10 @@ TextureImporter:
       name: PngItem_787455_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 258
-        width: 119
-        height: 128
+        x: 1
+        y: 260
+        width: 115
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4243,10 +4256,10 @@ TextureImporter:
       name: PngItem_787455_21
       rect:
         serializedVersion: 2
-        x: 119
-        y: 258
-        width: 119
-        height: 128
+        x: 126
+        y: 265
+        width: 95
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4264,10 +4277,10 @@ TextureImporter:
       name: PngItem_787455_22
       rect:
         serializedVersion: 2
-        x: 238
-        y: 258
-        width: 119
-        height: 128
+        x: 241
+        y: 275
+        width: 95
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4285,10 +4298,10 @@ TextureImporter:
       name: PngItem_787455_23
       rect:
         serializedVersion: 2
-        x: 357
-        y: 258
-        width: 119
-        height: 128
+        x: 366
+        y: 265
+        width: 95
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4306,10 +4319,10 @@ TextureImporter:
       name: PngItem_787455_24
       rect:
         serializedVersion: 2
-        x: 476
-        y: 258
-        width: 119
-        height: 128
+        x: 486
+        y: 265
+        width: 100
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4327,10 +4340,10 @@ TextureImporter:
       name: PngItem_787455_25
       rect:
         serializedVersion: 2
-        x: 595
-        y: 258
-        width: 119
-        height: 128
+        x: 601
+        y: 260
+        width: 115
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4348,10 +4361,10 @@ TextureImporter:
       name: PngItem_787455_26
       rect:
         serializedVersion: 2
-        x: 714
-        y: 258
-        width: 119
-        height: 128
+        x: 726
+        y: 260
+        width: 95
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4369,10 +4382,10 @@ TextureImporter:
       name: PngItem_787455_27
       rect:
         serializedVersion: 2
-        x: 833
-        y: 258
-        width: 119
-        height: 128
+        x: 846
+        y: 270
+        width: 90
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4390,10 +4403,10 @@ TextureImporter:
       name: PngItem_787455_28
       rect:
         serializedVersion: 2
-        x: 952
-        y: 258
-        width: 119
-        height: 128
+        x: 971
+        y: 270
+        width: 95
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4411,10 +4424,10 @@ TextureImporter:
       name: PngItem_787455_29
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 258
-        width: 119
-        height: 128
+        x: 1086
+        y: 265
+        width: 100
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4432,10 +4445,10 @@ TextureImporter:
       name: PngItem_787455_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 130
-        width: 119
-        height: 128
+        x: 11
+        y: 140
+        width: 90
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4453,10 +4466,10 @@ TextureImporter:
       name: PngItem_787455_31
       rect:
         serializedVersion: 2
-        x: 119
-        y: 130
-        width: 119
-        height: 128
+        x: 131
+        y: 140
+        width: 90
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4474,10 +4487,10 @@ TextureImporter:
       name: PngItem_787455_32
       rect:
         serializedVersion: 2
-        x: 238
-        y: 130
-        width: 119
-        height: 128
+        x: 251
+        y: 140
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4495,10 +4508,10 @@ TextureImporter:
       name: PngItem_787455_33
       rect:
         serializedVersion: 2
-        x: 357
-        y: 130
-        width: 119
-        height: 128
+        x: 371
+        y: 140
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4516,10 +4529,10 @@ TextureImporter:
       name: PngItem_787455_34
       rect:
         serializedVersion: 2
-        x: 476
-        y: 130
-        width: 119
-        height: 128
+        x: 491
+        y: 140
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4537,10 +4550,10 @@ TextureImporter:
       name: PngItem_787455_35
       rect:
         serializedVersion: 2
-        x: 595
-        y: 130
-        width: 119
-        height: 128
+        x: 611
+        y: 140
+        width: 90
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4558,10 +4571,10 @@ TextureImporter:
       name: PngItem_787455_36
       rect:
         serializedVersion: 2
-        x: 714
-        y: 130
-        width: 119
-        height: 128
+        x: 731
+        y: 140
+        width: 90
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4579,10 +4592,10 @@ TextureImporter:
       name: PngItem_787455_37
       rect:
         serializedVersion: 2
-        x: 833
-        y: 130
-        width: 119
-        height: 128
+        x: 851
+        y: 140
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4600,10 +4613,10 @@ TextureImporter:
       name: PngItem_787455_38
       rect:
         serializedVersion: 2
-        x: 952
-        y: 130
-        width: 119
-        height: 128
+        x: 971
+        y: 135
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4621,10 +4634,10 @@ TextureImporter:
       name: PngItem_787455_39
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 130
-        width: 119
-        height: 128
+        x: 1091
+        y: 140
+        width: 90
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4642,10 +4655,10 @@ TextureImporter:
       name: PngItem_787455_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 119
-        height: 128
+        x: 1
+        y: 5
+        width: 100
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4663,10 +4676,10 @@ TextureImporter:
       name: PngItem_787455_41
       rect:
         serializedVersion: 2
-        x: 119
-        y: 2
-        width: 119
-        height: 128
+        x: 131
+        y: 5
+        width: 95
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4684,10 +4697,10 @@ TextureImporter:
       name: PngItem_787455_42
       rect:
         serializedVersion: 2
-        x: 238
-        y: 2
-        width: 119
-        height: 128
+        x: 251
+        y: 5
+        width: 95
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4705,10 +4718,10 @@ TextureImporter:
       name: PngItem_787455_43
       rect:
         serializedVersion: 2
-        x: 357
-        y: 2
-        width: 119
-        height: 128
+        x: 366
+        y: 0
+        width: 95
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4727,9 +4740,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 476
-        y: 2
-        width: 119
-        height: 128
+        y: 0
+        width: 115
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4747,10 +4760,10 @@ TextureImporter:
       name: PngItem_787455_45
       rect:
         serializedVersion: 2
-        x: 595
-        y: 2
-        width: 119
-        height: 128
+        x: 606
+        y: 5
+        width: 100
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4768,10 +4781,10 @@ TextureImporter:
       name: PngItem_787455_46
       rect:
         serializedVersion: 2
-        x: 714
-        y: 2
-        width: 119
-        height: 128
+        x: 726
+        y: 5
+        width: 95
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4789,10 +4802,10 @@ TextureImporter:
       name: PngItem_787455_47
       rect:
         serializedVersion: 2
-        x: 833
-        y: 2
-        width: 119
-        height: 128
+        x: 856
+        y: 15
+        width: 95
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4810,10 +4823,10 @@ TextureImporter:
       name: PngItem_787455_48
       rect:
         serializedVersion: 2
-        x: 952
-        y: 2
-        width: 119
-        height: 128
+        x: 976
+        y: 5
+        width: 95
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4831,10 +4844,10 @@ TextureImporter:
       name: PngItem_787455_49
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 2
-        width: 119
-        height: 128
+        x: 1076
+        y: 0
+        width: 115
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4858,6 +4871,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      PngItem_787455_30: -3454744427690461967
+      PngItem_787455_12: 6144105108595888048
+      PngItem_787455_17: -8096239976543086392
+      PngItem_787455_32: -4070513127467988972
+      PngItem_787455_39: -3890192305755417286
+      PngItem_787455_13: -8940675224089039762
+      PngItem_787455_24: 1228924419694844118
+      PngItem_787455_25: 4621259750321452335
+      PngItem_787455_10: 5134808081938453551
+      PngItem_787455_40: -7656613255722910046
+      PngItem_787455_22: -7294471977527021645
+      PngItem_787455_37: 8117888280253865020
+      PngItem_787455_42: 6506201615639822741
+      PngItem_787455_44: 7532401937601778186
+      PngItem_787455_20: -6358716488330138211
+      PngItem_787455_41: -1909005667052519315
+      PngItem_787455_2: 3114790943742259606
+      PngItem_787455_11: 8243500242460641076
+      PngItem_787455_29: 6465083956306928602
+      PngItem_787455_15: -3250077403785058870
+      PngItem_787455_47: -5232716594980349610
+      PngItem_787455_23: -7305550324670259718
+      PngItem_787455_4: -2396900675168761097
+      PngItem_787455_9: -5944481877283877095
+      PngItem_787455_35: -7539740503149120440
+      PngItem_787455_8: -4103658232646365659
+      PngItem_787455_21: -3917060681301905652
+      PngItem_787455_5: -6123009384692734580
+      PngItem_787455_26: 8786345962847417804
+      PngItem_787455_36: 2108642822321857414
+      PngItem_787455_16: 814323450296733499
+      PngItem_787455_33: -2717296429575076500
+      PngItem_787455_18: 5981422833845002676
+      PngItem_787455_49: 3499393230837835212
+      PngItem_787455_3: -5933677759710001855
+      PngItem_787455_19: -4295332314095861316
+      PngItem_787455_6: -8531096359583895114
+      PngItem_787455_46: -7574714259404557683
+      PngItem_787455_48: -4250995194462581980
+      PngItem_787455_0: -734083753746549371
+      PngItem_787455_43: -6983908489933556031
+      PngItem_787455_27: -641102495283488825
+      PngItem_787455_7: 2236825356101606474
+      PngItem_787455_34: -5696393757594782150
+      PngItem_787455_31: -2083599605565165136
+      PngItem_787455_38: -1240317952589004067
+      PngItem_787455_28: 4102511167048635390
+      PngItem_787455_45: 5681652680187200454
+      PngItem_787455_1: -9040942241708014366
+      PngItem_787455_14: 5720541051498942886
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

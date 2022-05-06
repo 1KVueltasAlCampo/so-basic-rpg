@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
         if(Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f){
             transform.Translate(new Vector3( 0f,Input.GetAxisRaw("Vertical")*n*Time.deltaTime,0f));
         }
-
         anim.SetFloat("MoveX",Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY",Input.GetAxisRaw("Vertical"));
     }
