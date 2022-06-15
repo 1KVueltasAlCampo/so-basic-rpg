@@ -8,33 +8,36 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
 
     private Animator anim;
+    Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float mSpeed = moveSpeed;
-        if(Input.GetButton("Cancel")){
-            move(moveSpeed*2);
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        bool doubleSpeed = Input.GetButton("Cancel");
+
+        if(horizontal != 0 || vertical != 0){
+            if(doubleSpeed){
+                moveSpeed *= 2;
+            }
+            Vector2 velocity = new Vector2(horizontal,vertical).normalized * moveSpeed;
+            rb.velocity = velocity;
+            anim.SetFloat("MoveX",horizontal);
+            anim.SetFloat("MoveY",vertical);
+            //anim.setBool("Moving",true)
         }
+
         else{
-            move(moveSpeed);
+            rb.velocity = Vector2.zero;
         }
         
     }
 
-    void move(float n){
-        if(Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f){
-            transform.Translate(new Vector3( Input.GetAxisRaw("Horizontal")*n*Time.deltaTime,0f,0f));
-        }
-        if(Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f){
-            transform.Translate(new Vector3( 0f,Input.GetAxisRaw("Vertical")*n*Time.deltaTime,0f));
-        }
-        anim.SetFloat("MoveX",Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("MoveY",Input.GetAxisRaw("Vertical"));
-    }
 }
