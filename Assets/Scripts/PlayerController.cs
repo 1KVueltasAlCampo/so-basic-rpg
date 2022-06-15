@@ -31,10 +31,11 @@ public class PlayerController : MonoBehaviour
             rb.velocity = velocity;
             anim.SetFloat("MoveX",horizontal);
             anim.SetFloat("MoveY",vertical);
-            //anim.setBool("Moving",true)
+            anim.SetBool("Moving",true);
         }
 
         else{
+            anim.SetBool("Moving",false);
             rb.velocity = Vector2.zero;
         }
         
