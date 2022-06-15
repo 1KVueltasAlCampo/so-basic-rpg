@@ -24,10 +24,13 @@ public class PlayerController : MonoBehaviour
         bool doubleSpeed = Input.GetButton("Cancel");
 
         if(horizontal != 0 || vertical != 0){
+            Vector2 velocity;
             if(doubleSpeed){
-                moveSpeed *= 2;
+                velocity = new Vector2(horizontal,vertical).normalized * (moveSpeed*2);
             }
-            Vector2 velocity = new Vector2(horizontal,vertical).normalized * moveSpeed;
+            else{
+                velocity = new Vector2(horizontal,vertical).normalized * moveSpeed;
+            }
             rb.velocity = velocity;
             anim.SetFloat("MoveX",horizontal);
             anim.SetFloat("MoveY",vertical);
