@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
     Rigidbody2D rb;
+    private Vector2 lastMove;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,13 +33,16 @@ public class PlayerController : MonoBehaviour
                 velocity = new Vector2(horizontal,vertical).normalized * moveSpeed;
             }
             rb.velocity = velocity;
-            anim.SetFloat("MoveX",horizontal);
+            anim.SetFloat("MoveX",horizontal);            
             anim.SetFloat("MoveY",vertical);
             anim.SetBool("Moving",true);
+            lastMove = new Vector2(horizontal,vertical);
         }
 
         else{
             anim.SetBool("Moving",false);
+            anim.SetFloat("LastMoveX",lastMove.x);
+            anim.SetFloat("LastMoveY",lastMove.y);
             rb.velocity = Vector2.zero;
         }
         
